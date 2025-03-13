@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "Rationale for Voting NO on This Proposal\n\nWhile I recognize the importance of optimizing Cardano's economic model and agree with the long-term need to reassess the treasury cut, I do not believe that now is the right time to implement this change. My opposition is not based on disagreement with the core idea but rather on concerns about timing, governance stability, and sustainability. Below are my key reasons for voting NO at this moment:\n\n1. Timing – Governance is in a Transition Phase\n\nCardano is in the process of transitioning to a more decentralized governance system, with new mechanisms being tested for the first time.\n\nMajor economic changes should be implemented only after we have at least +12 Months of governance experimentation to ensure stability and adaptability.\n\nMaking such a significant adjustment before governance mechanisms are fully operational could create unintended consequences that we may not be well-equipped to address yet.\n\n2. Support for a Structured, Long-Term Approach\n\nI would support a gradual reduction of the treasury tax over time, rather than an immediate drop from 20% to 10%.\n\nA phased approach (e.g., a **1-2% reduction per year) **would allow the ecosystem to monitor the effects on staking incentives, treasury sustainability, and governance funding.\n\nSudden reductions may destabilize treasury planning, especially since Cardano is still developing long-term funding strategies for ecosystem growth.\n\nIf the proposer still wants to move forward ASAP, then a gradual decrease or a reduction to a smaller percentage might be a more balanced approach. The proposer could break this into smaller reduction proposals throughout the year. \n\n3. Maximizing Decentralization First\n\nMost ADA holders are still staking on exchanges, which means the network is not as decentralized as it should be.\n\nInstead of reducing the treasury tax now, I would prioritize educating users about the benefits of delegating to Stake Pool Operators (SPOs). I know many people have been saying this for years, but now we got a budget where this could be properly address with funding and a profesional team. \n\nEncouraging more users to delegate directly to SPOs would increase participation, decentralization, and network security before making structural changes to rewards and treasury inflows. There are other incentives outside APY to make this happen, for example DEFI products, ICOs and other events. \n\n4. Staking Rewards Increase is Marginal\n\nWhile increasing staking rewards does incentivize participation, I belileve the impact of this change is limited.\n\nA projected APY increase from 4.0% to 4.5% is unlikely to have a meaningful impact on delegator behavior. \n\nInstead of focusing on a small percentage boost in rewards, we should look at broader incentive mechanisms to increase network engagement beyond APY adjustments.\n\n5. Treasury Stability & Future Growth\n\nThe treasury plays a critical role in funding ecosystem development, governance, and future projects.\n\nA reduction of 50% in treasury inflows (from 20% to 10%) might be sustainable at higher ADA prices, but relying on price appreciation alone is a risky strategy. What if we go back to 0,2-0,3 range, are we willing to cut funding for the protocol that much to mantain treasury superavit?\n\nBefore making cuts, we need more data on treasury spending efficiency, funding gaps, and the impact of the upcoming governance framework.\n\nIf treasury spending is an issue, I would prioritize:\n\nOptimizing the budget to make it as efficient as possible.\n\nExploring alternative treasury allocations, such as using a portion for stablecoin/DeFi liquidity to generate sustainable growth for the Ecosystem, rather than spending it directly. \n\n6. Prioritizing Stability Over Rapid Change\n\nIn a structure as large as Cardano, we should prioritize slow, steady, and well-measured changes over rapid decisions that risk breaking things.\n\nOf course, there are exceptions where fast action is needed, but in this case, I strongly believe a cautious, multi-year plan is the best approach.\n\nCardano still needs significant adoption before we can safely reduce treasury inflows.\n\nThat is why I always favor gradual, long-term economic changes rather than sudden shifts.\n\n7. Reassessing This Discussion in 12 Months\n\nI support the idea of reducing the treasury cut, but I believe we should reassess this proposal in 12 months once governance mechanisms have been tested.\n\nA measured, strategic decrease over time (rather than a drastic cut) would allow for better planning and risk management.\n\nI would be open to voting YES on a revised proposal that includes a structured, long-term tax reduction plan rather than an immediate drop.\n\nConclusion\n\nI agree that increasing staking rewards can enhance participation, but this proposal moves too fast without enough governance experience to guide it. The treasury remains an essential tool for funding Cardano’s growth, and we need a more cautious, data-driven approach before making major changes. I know the proposers are experienced and professional, and I deeply appreciate they are bringing this discussion to the table.\n\nI am writing this rationale without looking at how others are voting, to avoid being influenced by external opinions.\n\nFor now, I am voting NO—not because I disagree with the concept, but because I believe the timing is premature and a structured, phased approach would be a far better path forward.\n\nDREP ID: drep1y2jd3c4hgg0tdua58z6c64k9rf58lz3jlcjlxcjfeaspl6q2e9zm6\n\nVote0004"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
