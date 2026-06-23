@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "I am voting Yes because Cardano cannot afford to miss opportunities to build businesses and infrastructure that connect the ecosystem to real-world economic activity.\n\nFor years, Cardano has championed the vision of RealFi, but that vision only becomes meaningful when projects are willing to tackle difficult, large-scale problems outside of crypto itself. Agriculture, supply chains, identity, and financial inclusion are exactly the types of sectors where Cardano can create unique value.\n\nTreasury funding should not only maintain the ecosystem we have today; it should help build the ecosystem we want to have in ten years.\n\nMy support is contingent on strong transparency, milestone reporting, and ongoing accountability, but overall I believe the potential strategic value outweighs the risks.\n\nFor these reasons, I vote Yes."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
